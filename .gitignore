@@ -1,34 +1,19 @@
-*.class
+# Maven #
+/target/
 
-# package file
-*.war
-*.ear
-
-# kdiff3 ignore
-*.orig
-
-# maven ignore
-target/
-
-# eclipse ignore
+# Eclipse #
 .settings/
-.project
-.classpath
+.svn/
+/.classpath
+/.project
+/.metadata/
+/Servers/
+/RemoteSystemsTempFiles/
+/lib/
 
-# idea
+# IDEA #
 .idea/
-/idea/
-*.ipr
 *.iml
-*.iws
 
-# temp file
-*.log
-*.cache
-*.diff
-*.patch
-*.tmp
-
-# system ignore
-.DS_Store
-Thumbs.db
+# Project #
+log/
